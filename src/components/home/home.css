@@ -2,13 +2,11 @@
   background-image: var(--first-gradient);
   padding-bottom: 180px;
 }
-
 .home,
 .home__wrapper,
 .home__container {
   position: relative;
 }
-
 .home__wrapper {
   min-height: 100vh;
   display: grid;
@@ -188,4 +186,14 @@
 .shape__3 {
   bottom: 0;
   right: -2%;
+}
+
+@media only screen and(max-width:600px) {
+  .home__profile {
+    marginleft: -90px;
+  }
+
+  .home__title text-cs {
+    margintop: -80px;
+  }
 }

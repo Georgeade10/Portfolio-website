@@ -10,6 +10,7 @@ import Project9 from './assets/project9.jpg';
 import Project10 from './assets/project10.jpg';
 import Project11 from './assets/project11.jpg';
 import Project12 from './assets/project12.jpg';
+import Project13 from './assets/project13.jpg';
 
 import Testimonial1 from './assets/testimonial1.jpg';
 import Testimonial2 from './assets/testimonial2.jpg';
@@ -160,7 +161,6 @@ export const skills = [
     description:
       'Understanding of server-side rendering. Experience with Next.js API routes, Knowledge of static site generation and understanding of Next.js routing',
   },
-
   {
     id: 7,
     name: 'Typescript',
@@ -193,6 +193,15 @@ export const projects = [
     description:
       'Application built with MERN Technology, Mongodb, react, express and node js. ',
     href: 'https://golajob.onrender.com/landing',
+  },
+  {
+    id: 1,
+    img: Project13,
+    category: 'Full-Stack',
+    title: 'Task Managing APP',
+    description:
+      'Project built to practice CRUD operation with the MERN Stack technology. ',
+    href: 'https://task-manager-fullstack.onrender.com/',
   },
   {
     id: 2,

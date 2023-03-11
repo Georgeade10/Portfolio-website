@@ -10,6 +10,11 @@ import Testimonials from './components/testimonials/Testimonials';
 import Pricing from './components/pricing/Pricing';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-C7B86W4PXW');
+
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
