@@ -19,7 +19,6 @@ const Portfolio = () => {
       setMenuItems(projects);
       return;
     }
-
     const newProjectItems = projects.filter(
       (item) => item.category === category
     );

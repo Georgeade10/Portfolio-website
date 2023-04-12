@@ -21,25 +21,11 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
-  /*   const handleSubmit = (e) => {
-    e.preventDefault();
-    axios
-      .post(
-        'https://script.google.com/macros/s/AKfycby7_jnYlqZtK9gAaJ77pgR4ki1H70YJXraadW4iXloERp-SF2mDmPqBPzSKJeS9BuGZ/exec',
-        form
-      )
-      .then((response) => {
-        console.log(response);
-        // clearing form fields
-        setForm({ Name: '', Email: '', Subject: '', Message: '' });
-      });
-  }; */
-
   function Submit(e) {
     const formEle = document.querySelector('form');
     const formDatab = new FormData(formEle);
     fetch(
-      'https://script.google.com/macros/s/AKfycby7_jnYlqZtK9gAaJ77pgR4ki1H70YJXraadW4iXloERp-SF2mDmPqBPzSKJeS9BuGZ/exec',
+      'https://script.google.com/macros/s/AKfycby7_jnYlqZtK9gAaJ77pgR4ki1H70YJXraadW4iXloERp-SF2mDmPqBPzSKS9BuGZ/exec',
       {
         method: 'POST',
         body: formDatab,
@@ -172,3 +158,17 @@ const Contact = () => {
 };
 
 export default Contact;
+
+/*   const handleSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post(
+        'https://script.google.com/macros/s/AKfycby7_jnYlqZtK9gAaJ77pgR4ki1H70YJXraadW4iXloERp-SF2mDmPqBPzSKJeS9BuGZ/exec',
+        form
+      )
+      .then((response) => {
+        console.log(response);
+        // clearing form fields
+        setForm({ Name: '', Email: '', Subject: '', Message: '' });
+      });
+  }; */

@@ -195,7 +195,7 @@ export const projects = [
     href: 'https://golajob.onrender.com/landing',
   },
   {
-    id: 1,
+    id: 2,
     img: Project13,
     category: 'Full-Stack',
     title: 'Task Managing APP',
@@ -204,7 +204,7 @@ export const projects = [
     href: 'https://task-manager-fullstack.onrender.com/',
   },
   {
-    id: 2,
+    id: 3,
     img: Project2,
     category: 'React-App',
     title: 'Cerrajeriaamigos.com',
@@ -213,7 +213,7 @@ export const projects = [
     href: 'https://cerrajeriaamigos.com',
   },
   {
-    id: 11,
+    id: 4,
     img: Project11,
     category: 'Branding',
     title: 'Blog post design',
@@ -223,7 +223,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 5,
     img: Project3,
     category: 'Branding',
     title: 'Billboard Branding',
@@ -232,7 +232,7 @@ export const projects = [
     href: 'https://www.foodco.ng/welcome.php',
   },
   {
-    id: 4,
+    id: 6,
     img: Project4,
     category: 'Branding',
     title: 'FoodCo Anniversary',
@@ -241,7 +241,7 @@ export const projects = [
     href: 'https://www.foodco.ng/welcome.php',
   },
   {
-    id: 5,
+    id: 7,
     img: Project5,
     category: 'Branding',
     title: 'Game center branding',
@@ -250,7 +250,7 @@ export const projects = [
     href: 'https://www.foodco.ng/welcome.php',
   },
   {
-    id: 6,
+    id: 8,
     img: Project6,
     category: 'Branding',
     title: 'Roll up Banner',
@@ -258,7 +258,7 @@ export const projects = [
       'I Created Roll up banners, t-shirts, window graphics design and branding for budget supermart',
   },
   {
-    id: 7,
+    id: 9,
     img: Project7,
     category: 'Branding',
     title: 'Flash Sales',
@@ -267,7 +267,7 @@ export const projects = [
     href: 'https://www.foodco.ng/welcome.php',
   },
   {
-    id: 8,
+    id: 10,
     img: Project8,
     category: 'Branding',
     title: 'Marcbim Billboard',
@@ -276,7 +276,7 @@ export const projects = [
     href: '',
   },
   {
-    id: 9,
+    id: 11,
     img: Project9,
     category: 'Branding',
     title: 'Roll up banners',
@@ -294,7 +294,7 @@ export const projects = [
     href: '',
   },
   {
-    id: 10,
+    id: 13,
     img: Project10,
     category: 'Branding',
     title: 'O-health & U-fitfly ',
