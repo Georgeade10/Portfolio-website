@@ -28,11 +28,19 @@ export const links = [
     path: 'work',
   },
   {
-    name: 'Skills',
+    name: 'Sports Skills',
+    path: 'SportsSkills',
+  },
+  {
+    name: 'Tech Skills',
     path: 'skills',
   },
   {
-    name: 'Services',
+    name: 'Sports Services',
+    path: 'sportsService',
+  },
+  {
+    name: 'Tech Services',
     path: 'services',
   },
   {
@@ -51,6 +59,44 @@ export const links = [
   {
     name: 'Contact',
     path: 'contact',
+  },
+];
+
+export const sportsServices = [
+  {
+    id: 1,
+    name: 'Player Transfer Negotiation',
+    title: 'Player Transfer Negotiation',
+    description:
+      'Assist in negotiating the transfer of players from one club to another, while ensuring the best possible outcome for the client.',
+  },
+  {
+    id: 2,
+    name: 'Player Market Analysis',
+    title: 'Player Market Analysis',
+    description:
+      'Provide insights and analysis of the football player market, helping clients identify potential transfer targets and value players correctly.',
+  },
+  {
+    id: 3,
+    name: 'Club Marketing Strategy',
+    title: 'Club Marketing Strategy',
+    description:
+      'Develop and implement marketing strategies to promote the club, engage with fans, and attract new supporters and sponsors.',
+  },
+  {
+    id: 4,
+    name: 'Player Development and Training',
+    title: 'Player Development and Training',
+    description:
+      'Provide guidance and support to players to help them reach their full potential, through individualized training programs and career development plans.',
+  },
+  {
+    id: 2,
+    name: 'Player Scouting',
+    title: 'Player Scouting & Recruitment',
+    description:
+      "Leverage our extensive network and expertise to find the best players for your team. We will work with you to identify your team's needs and then search for players that fit those criteria. Our scouting process includes watching matches, analyzing player statistics and data, and conducting interviews to ensure that we find the right player for your team.",
   },
 ];
 
@@ -110,6 +156,56 @@ export const services = [
     title: ' Marketing Manager ',
     description:
       'As a marketing manager, I can work with you to develop and implement effective marketing strategies that help you reach your business goals. ',
+  },
+];
+
+export const sportsSkills = [
+  {
+    id: 1,
+    name: 'Player Negotiation',
+    percentage: 90,
+    description:
+      'Skilled in negotiating player contracts, transfers, and other related transactions withing the global football market.',
+  },
+
+  {
+    id: 2,
+    name: 'Market Analysis',
+    percentage: 75,
+    description:
+      'Expertise in analyzing market trends and identifying potential opportunities for player acquisition and club development.',
+  },
+
+  {
+    id: 3,
+    name: 'Networking',
+    percentage: 80,
+    description:
+      'Extensive network of contacts in the sports industry, including agents, clubs, and players from different continent of the world',
+  },
+
+  {
+    id: 4,
+    name: 'Communication',
+    percentage: 70,
+    description:
+      'Strong communication skills, including the ability to effectively communicate with players, clubs, and other stakeholders',
+  },
+
+  {
+    id: 5,
+    name: 'Marketing Strategy',
+    percentage: 70,
+    description:
+      'Proficient in developing and executing effective marketing strategies and branding services to promote clubs and players.',
+  },
+
+  {
+    id: 6,
+    name: 'Legal Compliance',
+    percentage: 60,
+    description:
+      'Knowledgeable in FIFA regulations and guidelines, ensuring all transactions are compliant with governing bodies',
   },
 ];
 

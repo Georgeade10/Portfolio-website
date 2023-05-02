@@ -5,11 +5,15 @@ import { Link } from 'react-scroll';
 
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import CV from '../../assets/GeorgeAdeola__Fullstack-en.pdf';
+import Sports_CV from '../../assets/GEORGEADEOLA-FIFAAGENTen.pdf';
 import './home.css';
 
 const Home = () => {
   const openPdfInNewTab = () => {
     window.open(CV, '_blank');
+  };
+  const openSportPdfInNewTab = () => {
+    window.open(Sports_CV, '_blank');
   };
   return (
     <section className='home' id='home'>
@@ -20,7 +24,7 @@ const Home = () => {
           </h1>
 
           <p className='home__job'>
-            <b>Full Stack Web Developer & Digital Marketing </b>
+            <b>FIFA Licensed Agent | Full Stack Developer | CMO </b>
           </p>
 
           <div className='home__img-wrapper'>
@@ -55,12 +59,15 @@ const Home = () => {
           </div>
 
           <p className='home__text'>
-            Highly Motivated Web developer and digital Marketing professional
-            with strong customer service and creative ability. Proven experience
-            developing consumer-focused websites with modern web development
-            technologies like react, express, typescript etc. A driven-self
-            starter who is adept at digital marketing and sales to promote your
-            online presence, attract new customers, and drive business results.
+            As a FIFA licensed agent, full stack developer, and CMO, I bring a
+            unique and diverse set of skills to the table. With extensive
+            knowledge and experience in the sports industry, coupled with
+            expertise in technology and marketing, I am equipped to provide
+            comprehensive services to my clients. Whether you are looking for
+            support in player negotiations, web development, or marketing
+            strategies, I am dedicated to helping you achieve your goals.Let me
+            be your one-stop-shop for all your sports, tech, and marketing
+            related needs.
           </p>
 
           <div className='home__socials'>
@@ -82,8 +89,22 @@ const Home = () => {
           </div>
 
           <div className='home__btns'>
+            <button onClick={openSportPdfInNewTab} className='btn text-cs'>
+              Sports CV
+            </button>
+            <Link
+              className='hero__link text-cs'
+              to='SportsSkills'
+              spy={true}
+              hashSpy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+            >
+              Sports Skills
+            </Link>
             <button onClick={openPdfInNewTab} className='btn text-cs'>
-              VIEW CV
+              Tech CV
             </button>
             <Link
               className='hero__link text-cs'
@@ -94,7 +115,7 @@ const Home = () => {
               offset={-150}
               duration={500}
             >
-              My Skills
+              Tech Skills
             </Link>
           </div>
         </div>

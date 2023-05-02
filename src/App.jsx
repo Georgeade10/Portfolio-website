@@ -11,6 +11,8 @@ import Pricing from './components/pricing/Pricing';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import ReactGA from 'react-ga';
+import SportsSkills from './components/SportsSkills/SportsSkills';
+import SportsServices from './components/SportsServices/SportsService';
 
 ReactGA.initialize('G-C7B86W4PXW');
 
@@ -22,7 +24,9 @@ function App() {
       <Header />
       <Home />
       <Portfolio />
+      <SportsSkills />
       <Skills />
+      <SportsServices />
       <Services />
       <Resume />
       <Testimonials />

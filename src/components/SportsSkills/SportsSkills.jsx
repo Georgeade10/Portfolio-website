@@ -1,17 +1,17 @@
 import React from 'react';
-import { skills } from '../../Data';
-import './skills.css';
+import { sportsSkills } from '../../Data';
+import './SportsSkills.css';
 
-const Skills = () => {
+const SportsSkills = () => {
   return (
-    <section className='skills section' id='skills'>
-      <h2 className='section__title text-cs'>Tech Skills</h2>
+    <section className='skills section' id='SportsSkills'>
+      <h2 className='section__title text-cs'>Sports Skills</h2>
       <p className='section__subtitle'>
         My <span>Talent</span>
       </p>
 
       <div className='skills__container container grid'>
-        {skills.map(({ name, percentage, description }, index) => {
+        {sportsSkills.map(({ name, percentage, description }, index) => {
           return (
             <div className='skills__item' key={index}>
               <div className='skills__titles'>
@@ -45,4 +45,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SportsSkills;

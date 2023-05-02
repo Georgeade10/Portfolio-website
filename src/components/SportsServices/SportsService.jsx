@@ -1,5 +1,5 @@
 import React from 'react';
-import { services } from '../../Data';
+import { sportsServices } from '../../Data';
 import { FaArrowRight } from 'react-icons/fa';
 
 import { Link } from 'react-scroll';
@@ -14,14 +14,14 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper';
 
-import './services.css';
+import './SportsService.css';
 
-const Services = () => {
+const SportsServices = () => {
   return (
-    <section className='services section' id='services'>
+    <section className='services section' id='sportsService'>
       <h2 className='section__title text-cs'>What I Do</h2>
       <p className='section__subtitle'>
-        Tech <span>Services</span>
+        Sports <span>Services</span>
       </p>
 
       <Swiper
@@ -45,7 +45,7 @@ const Services = () => {
         modules={[Pagination]}
         className='services__container container mySwiper'
       >
-        {services.map(({ name, title, description }, index) => {
+        {sportsServices.map(({ name, title, description }, index) => {
           return (
             <SwiperSlide className='services__item card card-one' key={index}>
               <span className='services__subtitle text-cs'>{name}</span>
@@ -78,4 +78,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default SportsServices;
