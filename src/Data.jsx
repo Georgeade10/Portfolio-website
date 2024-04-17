@@ -210,12 +210,58 @@ export const sportsSkills = [
 ];
 
 export const skills = [
+
+  {
+    id: 1,
+    name: 'Requirement Elicitation',
+    percentage: 80,
+    description:
+      ' Proficient in gathering and translating business needs into technical language.',
+  },
+  {
+    id: 1,
+    name: 'Agile Management',
+    percentage: 90,
+    description:
+      'Skilled in utilizing Agile methodologies to streamline project workflows',
+  },
+  {
+    id: 1,
+    name: 'Communication',
+    percentage: 95,
+    description:
+      'Effectively communicates business requirements and processes through visual modeling',
+  },
+
+    {
+    id: 1,
+    name: 'Data Analytics',
+    percentage: 75,
+    description:
+      'Capable of conducting data analysis using Python, Tableau, SQL, and Excel',
+  },
+
+    {
+    id: 1,
+    name: 'Business Analytics Software',
+    percentage: 95,
+    description:
+      'Proficient in utilizing various software tools for business analysis',
+  },
   {
     id: 1,
     name: 'React',
     percentage: 85,
     description:
       'Good understanding of react core concepts including components, props and state. Ability to write reusable and maintainable code',
+  },
+
+    {
+    id: 1,
+    name: 'Quality Assurance',
+    percentage: 85,
+    description:
+      'Experienced in ensuring quality through test cases and automation tools',
   },
 
   {
@@ -431,13 +477,32 @@ export const cv = [
     category: 'education',
   },
 
+   {
+    id: 4,
+    title: 'Business Executive ',
+    subtitle: 'Top Doctors',
+    date: '2022 - 2023',
+    description:
+      'Analyzing the portfolios of medical professionals and clinics throughout the UK to ascertain their needs for promoting top-tier e-health technologies among esteemed doctors, while nurturing partnerships within the healthcare sector',
+    category: 'experience',
+  },
+
   {
     id: 4,
-    title: 'Web Developer & Digital Marketing Expert',
-    subtitle: 'Neuroscience Business School',
-    date: '2022 - present',
+    title: 'Business Analyst & Developer ',
+    subtitle: 'iking.io',
+    date: '2022 - 2023',
     description:
-      'Manage company website and daily digital marketing activities',
+      'Translated business requirement into developers language and also supported in the development process',
+    category: 'experience',
+  },
+  {
+    id: 4,
+    title: 'Web Developer ',
+    subtitle: 'Neuroscience Business School',
+    date: '2022 ',
+    description:
+      'Revamped website with custom html, css and javascript',
     category: 'experience',
   },
 
@@ -453,10 +518,10 @@ export const cv = [
 
   {
     id: 6,
-    title: 'Digital Marketing Lead',
+    title: 'Digital Analyst',
     subtitle: 'FoodCo',
     date: '2018 - 2021',
-    description: 'Managed Company Digital marketing and creative department',
+    description: 'Managed Company Digital project, collaborated with the team to develop a prominent e-commerce store',
     category: 'experience',
   },
 ];

@@ -4,7 +4,7 @@ import profileImg from '../../assets/profile-img.png';
 import { Link } from 'react-scroll';
 
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
-import CV from '../../assets/GeorgeAdeola__Fullstack-en.pdf';
+import CV from '../../assets/George_Adeola-BusinessAnalyst.pdf';
 import Sports_CV from '../../assets/GEORGEADEOLA-FIFAAGENTen.pdf';
 import './home.css';
 
@@ -24,7 +24,7 @@ const Home = () => {
           </h1>
 
           <p className='home__job'>
-            <b>FIFA Licensed Agent | Full Stack Developer | CMO </b>
+            <b>Football Analyst | Full Stack Developer | Business Analyst </b>
           </p>
 
           <div className='home__img-wrapper'>
@@ -39,7 +39,7 @@ const Home = () => {
 
             <p className='home__data home__data-one'>
               <span className='text-lg'>
-                5 <b>+</b>
+                7 <b>+</b>
               </span>
 
               <span className='text-sm text-cs'>
@@ -59,15 +59,7 @@ const Home = () => {
           </div>
 
           <p className='home__text'>
-            As a FIFA licensed agent, full stack developer, and CMO, I bring a
-            unique and diverse set of skills to the table. With extensive
-            knowledge and experience in the sports industry, coupled with
-            expertise in technology and marketing, I am equipped to provide
-            comprehensive services to my clients. Whether you are looking for
-            support in player negotiations, web development, or marketing
-            strategies, I am dedicated to helping you achieve your goals.Let me
-            be your one-stop-shop for all your sports, tech, and marketing
-            related needs.
+           As an accomplished business analyst and full-stack web developer, complemented by a seasoned role as a pro-level scouting analyst with a FIFA licensed agent, I excel in the art of analysis across technology, sports, and business domains. My proficiency extends to unraveling complexities in software development and dissecting player and team profiles within the dynamic football industry. Leveraging data analytics tools like Python and Tableau, I orchestrate seamless integration of technology, sports insights, and business strategies.
           </p>
 
           <div className='home__socials'>
