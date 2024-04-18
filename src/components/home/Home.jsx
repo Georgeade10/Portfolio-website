@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 import { FaGithubAlt, FaLinkedinIn } from 'react-icons/fa';
 import CV from '../../assets/George_Adeola-BusinessAnalyst.pdf';
-import Sports_CV from '../../assets/GEORGEADEOLA-FIFAAGENTen.pdf';
+import Sports_CV from '../../assets/George_Adeola-ProScout.pdf';
 import './home.css';
 
 const Home = () => {
